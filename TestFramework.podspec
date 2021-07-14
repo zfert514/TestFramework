@@ -36,7 +36,7 @@ s.framework = 'AWSCognitoIdentityProvider'
 s.source_files = "TestFramework/**/*.{swift}"
 
 # 9
-s.resources = "TestFramework/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+#s.resources = "TestFramework/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
 # 10
 s.swift_version = "4.2"
