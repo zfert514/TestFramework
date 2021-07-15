@@ -8,7 +8,7 @@ s.summary = "TestFramework is a test."
 s.requires_arc = true
 
 # 2
-s.version = "0.1.0"
+s.version = "0.2.0"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }
@@ -30,13 +30,13 @@ s.framework = 'Amplify'
 s.framework = 'AmplifyPlugins/AWSDataStorePlugin'
 s.framework = 'AmplifyPlugins/AWSAPIPlugin'
 s.framework = 'AWSPluginsCore'
-s.framework = 'AWSCognitoIdentityProvider'
+#s.framework = 'AWSCognitoIdentityProvider'
 
 # 8
-s.source_files = "TestFramework/**/*.{swift}"
+s.source_files = "TestFramework/**/*.{h,m}"
 
 # 9
-#s.resources = "TestFramework/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+s.resources = "TestFramework/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
 # 10
 s.swift_version = "4.2"
