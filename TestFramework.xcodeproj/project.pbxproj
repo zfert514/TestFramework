@@ -7,10 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7A7B3AF5B5DDC366C245E119 /* Pods_TestFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF90771997206C45015A45CB /* Pods_TestFramework.framework */; };
+		640FF770CAEBE88CB313CD40 /* Pods_TestFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 357BE77D74639CCE8688EC56 /* Pods_TestFramework.framework */; };
 		8191C6E226A02AD500C81367 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8191C6E126A02AD500C81367 /* Media.xcassets */; };
 		8193F6A7269ECD7500F75DF1 /* TestFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8193F69D269ECD7500F75DF1 /* TestFramework.framework */; };
-		8193F6AC269ECD7500F75DF1 /* TestFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8193F6AB269ECD7500F75DF1 /* TestFrameworkTests.swift */; };
 		8193F6AE269ECD7500F75DF1 /* TestFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 8193F6A0269ECD7500F75DF1 /* TestFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -25,16 +24,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0EE272ECD30A811D3CE3FEF7 /* Pods-TestFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestFramework.debug.xcconfig"; path = "Target Support Files/Pods-TestFramework/Pods-TestFramework.debug.xcconfig"; sourceTree = "<group>"; };
-		670074A9177797C1CF3B8CEC /* Pods-TestFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestFramework.release.xcconfig"; path = "Target Support Files/Pods-TestFramework/Pods-TestFramework.release.xcconfig"; sourceTree = "<group>"; };
+		357BE77D74639CCE8688EC56 /* Pods_TestFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8191C6E126A02AD500C81367 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		8193F69D269ECD7500F75DF1 /* TestFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8193F6A0269ECD7500F75DF1 /* TestFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestFramework.h; sourceTree = "<group>"; };
 		8193F6A1269ECD7500F75DF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8193F6A6269ECD7500F75DF1 /* TestFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8193F6AB269ECD7500F75DF1 /* TestFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFrameworkTests.swift; sourceTree = "<group>"; };
-		8193F6AD269ECD7500F75DF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EF90771997206C45015A45CB /* Pods_TestFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0E9DD8C912F7035A344E0F3 /* Pods-TestFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestFramework.debug.xcconfig"; path = "Target Support Files/Pods-TestFramework/Pods-TestFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		B622E66BC2E21F203395DA81 /* Pods-TestFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestFramework.release.xcconfig"; path = "Target Support Files/Pods-TestFramework/Pods-TestFramework.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A7B3AF5B5DDC366C245E119 /* Pods_TestFramework.framework in Frameworks */,
+				640FF770CAEBE88CB313CD40 /* Pods_TestFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,8 +57,8 @@
 		69A5987E510773AC7E9BE343 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0EE272ECD30A811D3CE3FEF7 /* Pods-TestFramework.debug.xcconfig */,
-				670074A9177797C1CF3B8CEC /* Pods-TestFramework.release.xcconfig */,
+				B0E9DD8C912F7035A344E0F3 /* Pods-TestFramework.debug.xcconfig */,
+				B622E66BC2E21F203395DA81 /* Pods-TestFramework.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -78,10 +75,9 @@
 			isa = PBXGroup;
 			children = (
 				8193F69F269ECD7500F75DF1 /* TestFramework */,
-				8193F6AA269ECD7500F75DF1 /* TestFrameworkTests */,
 				8193F69E269ECD7500F75DF1 /* Products */,
 				69A5987E510773AC7E9BE343 /* Pods */,
-				BB77D5DE504F2A9A114960DD /* Frameworks */,
+				B228C0EE0A61AB1C402F932D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,19 +100,10 @@
 			path = TestFramework;
 			sourceTree = "<group>";
 		};
-		8193F6AA269ECD7500F75DF1 /* TestFrameworkTests */ = {
+		B228C0EE0A61AB1C402F932D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8193F6AB269ECD7500F75DF1 /* TestFrameworkTests.swift */,
-				8193F6AD269ECD7500F75DF1 /* Info.plist */,
-			);
-			path = TestFrameworkTests;
-			sourceTree = "<group>";
-		};
-		BB77D5DE504F2A9A114960DD /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				EF90771997206C45015A45CB /* Pods_TestFramework.framework */,
+				357BE77D74639CCE8688EC56 /* Pods_TestFramework.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -139,7 +126,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8193F6B1269ECD7500F75DF1 /* Build configuration list for PBXNativeTarget "TestFramework" */;
 			buildPhases = (
-				6F2B6C7894ED3D5F0C9CC6A4 /* [CP] Check Pods Manifest.lock */,
+				88E9BD6277868FCF7023EF87 /* [CP] Check Pods Manifest.lock */,
 				8193F698269ECD7500F75DF1 /* Headers */,
 				8193F699269ECD7500F75DF1 /* Sources */,
 				8193F69A269ECD7500F75DF1 /* Frameworks */,
@@ -228,7 +215,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6F2B6C7894ED3D5F0C9CC6A4 /* [CP] Check Pods Manifest.lock */ = {
+		88E9BD6277868FCF7023EF87 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -264,7 +251,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8193F6AC269ECD7500F75DF1 /* TestFrameworkTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,7 +389,7 @@
 		};
 		8193F6B2269ECD7500F75DF1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0EE272ECD30A811D3CE3FEF7 /* Pods-TestFramework.debug.xcconfig */;
+			baseConfigurationReference = B0E9DD8C912F7035A344E0F3 /* Pods-TestFramework.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -412,6 +398,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EXCLUDED_ARCHS = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Amplify\"",
+				);
 				INFOPLIST_FILE = TestFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -419,6 +410,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = edu.elon.cs.Zack.TestFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -430,7 +422,7 @@
 		};
 		8193F6B3269ECD7500F75DF1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 670074A9177797C1CF3B8CEC /* Pods-TestFramework.release.xcconfig */;
+			baseConfigurationReference = B622E66BC2E21F203395DA81 /* Pods-TestFramework.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +431,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EXCLUDED_ARCHS = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Amplify\"",
+				);
 				INFOPLIST_FILE = TestFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -446,6 +443,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = edu.elon.cs.Zack.TestFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;

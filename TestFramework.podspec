@@ -8,7 +8,7 @@ s.summary = "TestFramework is a test."
 s.requires_arc = true
 
 # 2
-s.version = "0.2.0"
+s.version = "0.2.1"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }
@@ -24,19 +24,20 @@ s.source = { :git => "https://github.com/zfert514/TestFramework.git",
              :tag => "#{s.version}" }
 
 # 7
-s.framework = 'AWSPinpoint'
-s.framework = 'AWSMobileClient'
-s.framework = 'Amplify'
-s.framework = 'AmplifyPlugins/AWSDataStorePlugin'
-s.framework = 'AmplifyPlugins/AWSAPIPlugin'
-s.framework = 'AWSPluginsCore'
+s.dependency 'AWSCore', '2.24.3'
+#s.framework = 'AWSPinpoint'
+#s.framework = 'AWSMobileClient'
+s.dependency 'Amplify', '1.12.0'
+#s.framework = 'AmplifyPlugins/AWSDataStorePlugin'
+#s.framework = 'AmplifyPlugins/AWSAPIPlugin'
+#s.framework = 'AWSPluginsCore'
 #s.framework = 'AWSCognitoIdentityProvider'
 
 # 8
 s.source_files = "TestFramework/**/*.{h,m}"
 
 # 9
-s.resources = "TestFramework/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+#s.resources = "TestFramework/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
 # 10
 s.swift_version = "4.2"
