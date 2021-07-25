@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		640FF770CAEBE88CB313CD40 /* Pods_TestFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 357BE77D74639CCE8688EC56 /* Pods_TestFramework.framework */; };
+		8169685226AD52AC00159432 /* new.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8169685126AD52AC00159432 /* new.swift */; };
 		8191C6E226A02AD500C81367 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8191C6E126A02AD500C81367 /* Media.xcassets */; };
 		8193F6A7269ECD7500F75DF1 /* TestFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8193F69D269ECD7500F75DF1 /* TestFramework.framework */; };
 		8193F6AE269ECD7500F75DF1 /* TestFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 8193F6A0269ECD7500F75DF1 /* TestFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -25,6 +26,7 @@
 
 /* Begin PBXFileReference section */
 		357BE77D74639CCE8688EC56 /* Pods_TestFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8169685126AD52AC00159432 /* new.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = new.swift; sourceTree = "<group>"; };
 		8191C6E126A02AD500C81367 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		8193F69D269ECD7500F75DF1 /* TestFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8193F6A0269ECD7500F75DF1 /* TestFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestFramework.h; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				8191C6E126A02AD500C81367 /* Media.xcassets */,
+				8169685126AD52AC00159432 /* new.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -244,6 +247,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8169685226AD52AC00159432 /* new.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,6 +459,7 @@
 		8193F6B5269ECD7500F75DF1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TY4X6T9VPB;
 				INFOPLIST_FILE = TestFrameworkTests/Info.plist;
@@ -473,6 +478,7 @@
 		8193F6B6269ECD7500F75DF1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TY4X6T9VPB;
 				INFOPLIST_FILE = TestFrameworkTests/Info.plist;
