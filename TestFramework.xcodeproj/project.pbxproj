@@ -69,7 +69,6 @@
 			isa = PBXGroup;
 			children = (
 				8191C6E126A02AD500C81367 /* Media.xcassets */,
-				8169685126AD52AC00159432 /* new.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -98,6 +97,7 @@
 			children = (
 				8191C6E026A02A4F00C81367 /* Resources */,
 				8193F6A0269ECD7500F75DF1 /* TestFramework.h */,
+				8169685126AD52AC00159432 /* new.swift */,
 				8193F6A1269ECD7500F75DF1 /* Info.plist */,
 			);
 			path = TestFramework;
