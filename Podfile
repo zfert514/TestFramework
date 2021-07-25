@@ -4,8 +4,8 @@ target 'TestFramework' do
   use_frameworks!
 	pod 'AWSAuthCore'
   pod 'AWSPinpoint'
-#  pod 'AWSMobileClient'
+  pod 'AWSMobileClient'
   pod 'Amplify'
-#  pod 'AmplifyPlugins/AWSDataStorePlugin'
-#  pod 'AmplifyPlugins/AWSAPIPlugin'
+  pod 'AmplifyPlugins/AWSDataStorePlugin'
+  pod 'AmplifyPlugins/AWSAPIPlugin'
 end
